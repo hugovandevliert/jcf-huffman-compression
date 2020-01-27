@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.HuffmanController">
+   <children>
+      <TextArea fx:id="txtUncompressed" layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="450.0" />
+      <Button fx:id="btnCompress" layoutX="495.0" layoutY="14.0" mnemonicParsing="false" onAction="#Compress" text="Compress" />
+      <TextArea fx:id="txtCompressed" layoutX="14.0" layoutY="236.0" prefHeight="200.0" prefWidth="450.0" />
+      <Button fx:id="btnDecompress" layoutX="487.0" layoutY="236.0" mnemonicParsing="false" onAction="#Decompress" text="Decompress" />
+   </children>
+</AnchorPane>
